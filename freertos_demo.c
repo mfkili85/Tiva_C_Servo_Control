@@ -32,7 +32,7 @@
 #include "driverlib/sysctl.h"
 #include "driverlib/uart.h"
 #include "utils/uartstdio.h"
-#include "led_task.h"
+#include "Servo_task.h"
 #include "switch_task.h"
 #include "FreeRTOS.h"
 #include "task.h"
@@ -159,6 +159,8 @@ ConfigureUART(void)
 int
 main(void)
 {
+    FPUEnable();
+    FPULazyStackingEnable();
     //
     // Set the clocking to run at 50 MHz from the PLL.
     //
@@ -173,35 +175,35 @@ main(void)
     //
     // Print demo introduction.
     //
-    UARTprintf("\n\nWelcome to the EK-TM4C123GXL FreeRTOS Demo!\n");
+    UARTprintf("\n\nServo test project!\n");
 
     //
     // Create a mutex to guard the UART.
     //
     g_pUARTSemaphore = xSemaphoreCreateMutex();
 
+    //UARTprintf("Free heap: %d bytes\n", xPortGetFreeHeapSize());
     //
     // Create the LED task.
     //
-    if(LEDTaskInit() != 0)
+    if(ServoTaskInit() != 0)
     {
-
+        UARTprintf("Servo task not defined ");
         while(1)
         {
         }
     }
-
+    //UARTprintf("Servo task defined ");
     //
     // Create the switch task.
     //
     if(SwitchTaskInit() != 0)
     {
-
+        UARTprintf("switch task not defined ");
         while(1)
         {
         }
     }
-
     //
     // Start the scheduler.  This should not return.
     //

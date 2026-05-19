@@ -64,7 +64,7 @@
 #define configMAX_TASK_NAME_LEN               (12)
 
 /*heap*/
-#define configTOTAL_HEAP_SIZE                 ((size_t)(10 *1024))
+#define configTOTAL_HEAP_SIZE                 ((size_t)(12 *1024))
 
 /*config that build feature in or out */
 #define configUSE_MUTEXES                     1

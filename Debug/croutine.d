@@ -1,33 +1,33 @@
 # FIXED
 
 croutine.o: ../croutine.c \
- C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/FreeRTOS.h \
- C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/FreeRTOSConfig.h \
- C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/projdefs.h \
- C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/portable.h \
- C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/deprecated_definitions.h \
- C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h \
- C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/mpu_wrappers.h \
- C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/task.h \
- C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/list.h \
- C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/croutine.h
+ C:/Users/MFKILI/workspace_v12/Servo_Control/include/FreeRTOS.h \
+ C:/Users/MFKILI/workspace_v12/Servo_Control/include/FreeRTOSConfig.h \
+ C:/Users/MFKILI/workspace_v12/Servo_Control/include/projdefs.h \
+ C:/Users/MFKILI/workspace_v12/Servo_Control/include/portable.h \
+ C:/Users/MFKILI/workspace_v12/Servo_Control/include/deprecated_definitions.h \
+ C:/Users/MFKILI/workspace_v12/Servo_Control/portable/GCC/ARM_CM4F/portmacro.h \
+ C:/Users/MFKILI/workspace_v12/Servo_Control/include/mpu_wrappers.h \
+ C:/Users/MFKILI/workspace_v12/Servo_Control/include/task.h \
+ C:/Users/MFKILI/workspace_v12/Servo_Control/include/list.h \
+ C:/Users/MFKILI/workspace_v12/Servo_Control/include/croutine.h
 
-C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/FreeRTOS.h:
+C:/Users/MFKILI/workspace_v12/Servo_Control/include/FreeRTOS.h:
 
-C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/FreeRTOSConfig.h:
+C:/Users/MFKILI/workspace_v12/Servo_Control/include/FreeRTOSConfig.h:
 
-C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/projdefs.h:
+C:/Users/MFKILI/workspace_v12/Servo_Control/include/projdefs.h:
 
-C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/portable.h:
+C:/Users/MFKILI/workspace_v12/Servo_Control/include/portable.h:
 
-C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/deprecated_definitions.h:
+C:/Users/MFKILI/workspace_v12/Servo_Control/include/deprecated_definitions.h:
 
-C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h:
+C:/Users/MFKILI/workspace_v12/Servo_Control/portable/GCC/ARM_CM4F/portmacro.h:
 
-C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/mpu_wrappers.h:
+C:/Users/MFKILI/workspace_v12/Servo_Control/include/mpu_wrappers.h:
 
-C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/task.h:
+C:/Users/MFKILI/workspace_v12/Servo_Control/include/task.h:
 
-C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/list.h:
+C:/Users/MFKILI/workspace_v12/Servo_Control/include/list.h:
 
-C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/croutine.h:
+C:/Users/MFKILI/workspace_v12/Servo_Control/include/croutine.h:

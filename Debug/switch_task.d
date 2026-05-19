@@ -8,19 +8,19 @@ switch_task.o: ../switch_task.c \
  C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/gpio.h \
  C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/rom.h ../drivers/buttons.h \
  C:/ti/TivaWare_C_Series-2.2.0.295/utils/uartstdio.h ../switch_task.h \
- ../led_task.h ../priorities.h \
- C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/FreeRTOS.h \
- C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/FreeRTOSConfig.h \
- C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/projdefs.h \
- C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/portable.h \
- C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/deprecated_definitions.h \
- C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h \
- C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/mpu_wrappers.h \
- C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/task.h \
- C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/list.h \
- C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/queue.h \
- C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/semphr.h \
- C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/queue.h
+ ../Servo_task.h ../priorities.h \
+ C:/Users/MFKILI/workspace_v12/Servo_Control/include/FreeRTOS.h \
+ C:/Users/MFKILI/workspace_v12/Servo_Control/include/FreeRTOSConfig.h \
+ C:/Users/MFKILI/workspace_v12/Servo_Control/include/projdefs.h \
+ C:/Users/MFKILI/workspace_v12/Servo_Control/include/portable.h \
+ C:/Users/MFKILI/workspace_v12/Servo_Control/include/deprecated_definitions.h \
+ C:/Users/MFKILI/workspace_v12/Servo_Control/portable/GCC/ARM_CM4F/portmacro.h \
+ C:/Users/MFKILI/workspace_v12/Servo_Control/include/mpu_wrappers.h \
+ C:/Users/MFKILI/workspace_v12/Servo_Control/include/task.h \
+ C:/Users/MFKILI/workspace_v12/Servo_Control/include/list.h \
+ C:/Users/MFKILI/workspace_v12/Servo_Control/include/queue.h \
+ C:/Users/MFKILI/workspace_v12/Servo_Control/include/semphr.h \
+ C:/Users/MFKILI/workspace_v12/Servo_Control/include/queue.h
 
 C:/ti/TivaWare_C_Series-2.2.0.295/inc/hw_memmap.h:
 
@@ -40,30 +40,30 @@ C:/ti/TivaWare_C_Series-2.2.0.295/utils/uartstdio.h:
 
 ../switch_task.h:
 
-../led_task.h:
+../Servo_task.h:
 
 ../priorities.h:
 
-C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/FreeRTOS.h:
+C:/Users/MFKILI/workspace_v12/Servo_Control/include/FreeRTOS.h:
 
-C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/FreeRTOSConfig.h:
+C:/Users/MFKILI/workspace_v12/Servo_Control/include/FreeRTOSConfig.h:
 
-C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/projdefs.h:
+C:/Users/MFKILI/workspace_v12/Servo_Control/include/projdefs.h:
 
-C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/portable.h:
+C:/Users/MFKILI/workspace_v12/Servo_Control/include/portable.h:
 
-C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/deprecated_definitions.h:
+C:/Users/MFKILI/workspace_v12/Servo_Control/include/deprecated_definitions.h:
 
-C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h:
+C:/Users/MFKILI/workspace_v12/Servo_Control/portable/GCC/ARM_CM4F/portmacro.h:
 
-C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/mpu_wrappers.h:
+C:/Users/MFKILI/workspace_v12/Servo_Control/include/mpu_wrappers.h:
 
-C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/task.h:
+C:/Users/MFKILI/workspace_v12/Servo_Control/include/task.h:
 
-C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/list.h:
+C:/Users/MFKILI/workspace_v12/Servo_Control/include/list.h:
 
-C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/queue.h:
+C:/Users/MFKILI/workspace_v12/Servo_Control/include/queue.h:
 
-C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/semphr.h:
+C:/Users/MFKILI/workspace_v12/Servo_Control/include/semphr.h:
 
-C:/Users/MFKILI/workspace_v12/Tiva_FreeRTOS/include/queue.h:
+C:/Users/MFKILI/workspace_v12/Servo_Control/include/queue.h:

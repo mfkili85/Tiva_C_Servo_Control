@@ -12,10 +12,10 @@ LDS_SRCS += \
 ../tm4c123gh6pm.lds 
 
 C_SRCS += \
+../Servo_task.c \
 ../croutine.c \
 ../event_groups.c \
 ../freertos_demo.c \
-../led_task.c \
 ../list.c \
 ../queue.c \
 ../switch_task.c \
@@ -25,10 +25,10 @@ C_SRCS += \
 ../uartstdio.c 
 
 C_DEPS += \
+./Servo_task.d \
 ./croutine.d \
 ./event_groups.d \
 ./freertos_demo.d \
-./led_task.d \
 ./list.d \
 ./queue.d \
 ./switch_task.d \
@@ -38,10 +38,10 @@ C_DEPS += \
 ./uartstdio.d 
 
 OBJS += \
+./Servo_task.o \
 ./croutine.o \
 ./event_groups.o \
 ./freertos_demo.o \
-./led_task.o \
 ./list.o \
 ./queue.o \
 ./switch_task.o \
@@ -51,10 +51,10 @@ OBJS += \
 ./uartstdio.o 
 
 OBJS__QUOTED += \
+"Servo_task.o" \
 "croutine.o" \
 "event_groups.o" \
 "freertos_demo.o" \
-"led_task.o" \
 "list.o" \
 "queue.o" \
 "switch_task.o" \
@@ -64,10 +64,10 @@ OBJS__QUOTED += \
 "uartstdio.o" 
 
 C_DEPS__QUOTED += \
+"Servo_task.d" \
 "croutine.d" \
 "event_groups.d" \
 "freertos_demo.d" \
-"led_task.d" \
 "list.d" \
 "queue.d" \
 "switch_task.d" \
@@ -77,10 +77,10 @@ C_DEPS__QUOTED += \
 "uartstdio.d" 
 
 C_SRCS__QUOTED += \
+"../Servo_task.c" \
 "../croutine.c" \
 "../event_groups.c" \
 "../freertos_demo.c" \
-"../led_task.c" \
 "../list.c" \
 "../queue.c" \
 "../switch_task.c" \

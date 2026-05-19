@@ -1,7 +1,7 @@
+"./Servo_task.o"
 "./croutine.o"
 "./event_groups.o"
 "./freertos_demo.o"
-"./led_task.o"
 "./list.o"
 "./queue.o"
 "./switch_task.o"
@@ -12,7 +12,7 @@
 "./drivers/buttons.o"
 "./drivers/rgb.o"
 "./portable/GCC/ARM_CM4F/port.o"
-"./portable/MemMang/heap_2.o"
+"./portable/MemMang/heap_4.o"
 -Wl,-T"../tm4c123gh6pm.lds"
 -Wl,--start-group
 -lc

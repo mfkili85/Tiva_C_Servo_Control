@@ -33,7 +33,7 @@
 #include "drivers/buttons.h"
 #include "utils/uartstdio.h"
 #include "switch_task.h"
-#include "led_task.h"
+#include "Servo_task.h"
 #include "priorities.h"
 #include "FreeRTOS.h"
 #include "task.h"
@@ -47,7 +47,7 @@
 //*****************************************************************************
 #define SWITCHTASKSTACKSIZE        128         // Stack size in words
 
-extern xQueueHandle g_pLEDQueue;
+extern xQueueHandle g_pSERVOQueue;
 extern xSemaphoreHandle g_pUARTSemaphore;
 
 //*****************************************************************************
@@ -119,7 +119,7 @@ SwitchTask(void *pvParameters)
                 //
                 // Pass the value of the button pressed to LEDTask.
                 //
-                if(xQueueSend(g_pLEDQueue, &ui8Message, portMAX_DELAY) !=
+                if(xQueueSend(g_pSERVOQueue, &ui8Message, portMAX_DELAY) !=
                    pdPASS)
                 {
                     //
@@ -149,6 +149,14 @@ SwitchTask(void *pvParameters)
 uint32_t
 SwitchTaskInit(void)
 {
+    // 1. Enable the clock for Port F
+    SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOF);
+
+    // 2. CRITICAL: Wait for the peripheral to be ready
+    // Accessing HWREG before this check passes will cause a reset/HardFault
+    while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOF))
+    {
+    }
     //
     // Unlock the GPIO LOCK register for Right button to work.
     //
